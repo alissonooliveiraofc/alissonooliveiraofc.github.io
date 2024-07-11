@@ -5,6 +5,7 @@
 
 body {
   font-family: "Kode Mono", monospace;
+  background-color: #efefef;
 }
 
 .header {
@@ -14,6 +15,8 @@ body {
   padding: 10px 0 20px;
   margin-top: 20px;
   vertical-align: center;
+  position: relative;
+  left: -55px;
 }
 
 .header img {
@@ -25,11 +28,17 @@ body {
   margin-top: 10px;
 }
 
+.header p {
+  margin-top: 30px;
+  line-height: 30px;
+}
+
 .main {
-  padding-top: 15px;
+  padding-top: 45px;
   line-height: 28px;
   text-align: center;
-  background-color: #efefef;
+  padding-bottom: 100px;
+
 }
 
 .main h2 {
@@ -44,6 +53,9 @@ body {
   text-align: center;
   margin-top: 45px;
   margin-left: 45px;
+  position: absolute;
+  top: 50px;
+  left: -15px;
 }
 
 .foto h1 {
