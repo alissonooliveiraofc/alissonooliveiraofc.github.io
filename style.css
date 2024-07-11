@@ -49,3 +49,7 @@ body {
 .main h2 {
   margin: 20px 0
 }
+
+div {
+  border: 2px solid rgb(46, 202, 54);
+}
