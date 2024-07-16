@@ -41,6 +41,6 @@ Sou um desenvolvedor web apaixonado com sólida experiência em tecnologias fron
 
 ## Contato
 
-Sinta-se à vontade para entrar em contato comigo por e-mail em [alissonooliveiraofc@gmail.com](mailto:alissonooliveiraofc@gmail.com) ou conectar-se comigo no [LinkedIn](https://www.linkedin.com/in/alissonooliveira/).
+Sinta-se à vontade para se conectar comigo no 🌐 [LinkedIn](https://www.linkedin.com/in/alissonooliveira/) para eventuais dúvidas ou caso precise de um orçamento!
 
 Vamos criar algo incrível juntos! 💻
