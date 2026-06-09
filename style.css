@@ -21,12 +21,19 @@
   list-style: none;
 }
 
-.navbar-container ul li {
+.navbar-container ul > li {
   text-transform: uppercase;
   margin-right: 40px;
   padding: 20px;
   color: white;
   letter-spacing: 0.1rem;
+  opacity: 50%;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+.navbar-container ul > li:hover {
+  opacity: 100%;
 }
 
 /* Showcase */
@@ -46,7 +53,15 @@
 
 .showcase-container > h1 {
   font-weight: 600;
-  font-size: 3.3rem;
+  font-size: 3.2rem;
 }
 
-/* 24:12 AULA */
+.showcase-container > p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #eee;
+  border-bottom: 2px solid white;
+  padding: 0px 8px 5px 8px;
+  letter-spacing: 0.15rem;
+}
