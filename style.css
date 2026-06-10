@@ -75,6 +75,11 @@
   height: 320px;
 }
 
+.about-me-content p {
+  color: white;
+  line-height: 2rem;
+}
+
 /* Utilities */
 .section-container {
   width: 100%;
