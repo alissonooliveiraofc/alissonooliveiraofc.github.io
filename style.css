@@ -68,16 +68,54 @@
 
 .about-me-content {
   display: flex;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .about-me-content img {
   width: 320px;
   height: 320px;
+  margin-right: 50px;
 }
 
 .about-me-content p {
   color: white;
   line-height: 2rem;
+}
+
+/* Habilidades */
+.skills-content {
+  margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-content .skill-item:nth-child(2) {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.skill-item {
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-item span {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.skill-item p {
+  color: white;
+  opacity: 75%;
+  font-weight: 500;
 }
 
 /* Utilities */
@@ -108,3 +146,5 @@
   width: fit-content;
   margin: auto;
 }
+
+/* SOBRE MIM E HABILIDADES 11:58 */
