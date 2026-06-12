@@ -118,6 +118,77 @@
   font-weight: 500;
 }
 
+/* Projetos */
+.projects-content {
+  margin-top: 118px;
+}
+
+.projects-content .project-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.projects-content .project-item:nth-child(even) > .project-text {
+  margin-left: 0;
+  margin-right: 50px;
+  text-align: right;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.project-item img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.project-item p {
+  color: white;
+  opacity: 75%;
+  line-height: 29px;
+}
+
+.project-item h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 2.25rem;
+}
+
+.project-item-image {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.project-item-img1 {
+  background-image: url("./images/projeto1.jpg");
+}
+
+.project-item-img2 {
+  background-image: url("./images/projeto2.jpg");
+}
+
+.project-item-img3 {
+  background-image: url("./images/projeto3.jpg");
+  background-position: center;
+}
+
+.project-item-img4 {
+  background-image: url("./images/projeto4.jpg");
+  background-position: center;
+}
+
+.project-text {
+  margin-left: 50px;
+  max-width: 600px;
+}
+
 /* Utilities */
 .section-container {
   width: 100%;
@@ -147,4 +218,4 @@
   margin: auto;
 }
 
-/* SOBRE MIM E HABILIDADES 11:58 */
+/* 12:29 - fsc projetos */
