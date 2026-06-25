@@ -189,6 +189,36 @@
   max-width: 600px;
 }
 
+/* Formulário */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.contact-form .form-input {
+  margin-bottom: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.social-items svg {
+  margin-right: 20px;
+}
+
+.social-items svg:hover {
+  cursor: pointer;
+}
 /* Utilities */
 .section-container {
   width: 100%;
@@ -218,4 +248,31 @@
   margin: auto;
 }
 
-/* 12:29 - fsc projetos */
+.form-input {
+  border: none;
+  border-radius: 10px;
+  background-color: #202020;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  resize: none;
+}
+
+.form-input:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-button {
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+}
+
+.form-button:hover {
+  cursor: pointer;
+}
+
+/* 20:44 */
