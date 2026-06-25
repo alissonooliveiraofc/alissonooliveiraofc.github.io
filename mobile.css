@@ -119,4 +119,8 @@
   .section-content {
     padding: 0 30px;
   }
+
+  .section-container {
+    padding: 20px 0;
+  }
 }
